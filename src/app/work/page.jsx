@@ -5,13 +5,16 @@ const WorkPage = () => {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        eyebrow="Nossos Serviços Odontológicos"
+        title="Soluções Comprovadas para um Sorriso Saudável"
+        eyebrowClassName="text-red-900"
+        titleClassName="text-red-900"
       >
-        <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        <p className="text-red-900">
+          Na nossa clínica odontológica, oferecemos tratamentos completos e
+          personalizados para garantir um sorriso saudável e bonito. Desde
+          cuidados preventivos até procedimentos avançados, estamos aqui para
+          cuidar da sua saúde bucal com as melhores soluções comprovadas.
         </p>
       </PageIntro>
     </>

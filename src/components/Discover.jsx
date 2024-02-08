@@ -1,43 +1,46 @@
 import React from "react";
 import Section from "./Section";
-import imageWhiteboard from "@/images/whiteboard.jpg";
+import imageWhiteboard from "@/images/tela1.jpeg";
 import { TagList, TagListItem } from "./TagList";
 
 const Discover = () => {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard, shape: 1 }}>
+    <Section title="Inicialização" image={{ src: imageWhiteboard, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{" "}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+          Na nossa clínica odontológica, nos dedicamos a entender as{" "}
+          <strong className="font-semibold text-neutral-950">
+            necessidades
+          </strong>{" "}
+          e objetivos de nossos pacientes, oferecendo um atendimento
+          personalizado e completo para garantir o melhor tratamento possível.
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{" "}
-          <strong className="font-semibold text-neutral-950">business</strong>
-          accounts — handing that information over to our forensic accounting
-          team.
+          Nossa equipe de especialistas utiliza tecnologia de ponta para
+          realizar um diagnóstico preciso, incluindo exames de imagem avançados,
+          para entender a saúde bucal do paciente em detalhes e planejar o
+          tratamento mais eficaz.
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+          Após a avaliação completa, apresentamos um{" "}
+          <strong className="font-semibold text-neutral-950">
+            plano de tratamento
+          </strong>{" "}
+          detalhado, discutindo todas as opções disponíveis, incluindo custos e
+          expectativas de resultados, para que o paciente possa tomar uma
+          decisão informada sobre sua saúde bucal.
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Incluído nesta fase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>Consultas iniciais detalhadas</TagListItem>
+        <TagListItem>Estudos de viabilidade do tratamento</TagListItem>
+        <TagListItem>Exames de imagem digital</TagListItem>
+        <TagListItem>Análises de saúde bucal</TagListItem>
+        <TagListItem>Modelos de tratamento em 3D</TagListItem>
+        <TagListItem>Plano de tratamento personalizado</TagListItem>
       </TagList>
     </Section>
   );

@@ -1,38 +1,45 @@
 import React from "react";
 import Section from "./Section";
-import imageLaptop from "@/images/laptop.jpg";
+import imageLaptop from "@/images/tela2.jpeg";
 import Blockquote from "./Blockquote";
 
 const Build = () => {
   return (
-    <Section title="Build" image={{ src: imageLaptop, shape: 2 }}>
+    <Section
+      title="Contruindo seu Plano de Tratamento"
+      image={{ src: imageLaptop, shape: 2 }}
+    >
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+          Com base na fase de inicialização, desenvolvemos um roteiro abrangente
+          para o plano de tratamento de cada paciente, iniciando o trabalho em
+          direção à realização. Este roteiro é cuidadosamente elaborado para
+          combinar as mais avançadas tecnologias odontológicas com as
+          necessidades específicas do paciente.
         </p>
         <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
+          Cada paciente é atribuído a um gerente de conta chave para manter as
+          linhas de comunicação abertas e transparentes, garantindo que todos
+          estejam informados sobre o progresso do tratamento. Eles atuam como um
+          elo de ligação entre o paciente e a equipe de desenvolvimento do plano
+          de tratamento, que trabalha diligentemente para personalizar soluções
+          de cuidados bucais.
         </p>
         <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
+          Nossos gerentes de conta estão treinados para responder aos emails dos
+          pacientes de maneira oportuna, mantendo-os atualizados com os avanços
+          e etapas do tratamento. Isso reforça nosso compromisso com a
+          comunicação clara e ajuda a estabelecer expectativas realistas para o
+          paciente.
         </p>
       </div>
       <Blockquote
-        author={{ name: "Debra Fiscal", role: "CEO of Unseal" }}
+        author={{ name: "Dra. Fernanda", role: "CEO da WF Odontologia" }}
         className="mt-12"
       >
-        Studio_clone were so regular with their progress updates we almost began
-        to think they were automated!
+        Nossa clínica se destaca por manter atualizações de progresso tão
+        regulares que os pacientes se sentem plenamente acompanhados em cada
+        etapa do tratamento!
       </Blockquote>
     </Section>
   );

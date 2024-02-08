@@ -14,8 +14,8 @@ const Services = () => {
         title="Descubra e aproveite novas oportunidades para seu sorriso."
         className="mt-24 sm:mt-32 lg:mt-40"
       >
-        <p>
-          Temos infinitas soluções para renovar e investir no seu sorriso, podemos criar inúmeras possibilidades.
+        <p className="text-red-900">
+          Exploramos soluções inovadoras para cuidar da sua saúde bucal, valorizando cada sorriso com tecnologia de ponta e atendimento personalizado.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -30,18 +30,18 @@ const Services = () => {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Limpeza dental">
-            Nós nos especializamos em realizar limpezas dentais de alta qualidade. Para os demais tratamentos, focamos em manter a excelência, mesmo que sejam procedimentos simples.
-            </ListItem>
-            <ListItem title="Nome de algum serviço">
-            Nós nos especializamos em realizar limpezas dentais de alta qualidade. Para os demais tratamentos, focamos em manter a excelência, mesmo que sejam procedimentos simples.
-            </ListItem>
-            <ListItem title="Nome de algum serviço">
-            Nós nos especializamos em realizar limpezas dentais de alta qualidade. Para os demais tratamentos, focamos em manter a excelência, mesmo que sejam procedimentos simples.
-            </ListItem>
-            <ListItem title="Nome de algum serviço">
-            Nós nos especializamos em realizar limpezas dentais de alta qualidade. Para os demais tratamentos, focamos em manter a excelência, mesmo que sejam procedimentos simples.
-            </ListItem>
+          <ListItem title="Limpeza Dental Profunda">
+            Utilizamos técnicas modernas para uma limpeza profunda, garantindo a saúde e o brilho do seu sorriso.
+          </ListItem>
+          <ListItem title="Ortodontia Avançada">
+            Oferecemos soluções ortodônticas personalizadas, incluindo aparelhos invisíveis e tratamentos acelerados.
+          </ListItem>
+          <ListItem title="Restaurações Estéticas">
+            Restauramos dentes danificados com materiais da mais alta qualidade, mantendo a naturalidade do seu sorriso.
+          </ListItem>
+          <ListItem title="Clareamento Dental">
+            Procedimentos de clareamento dental que proporcionam resultados duradouros, para um sorriso mais branco e brilhante.
+          </ListItem>
           </List>
         </div>
       </Container>

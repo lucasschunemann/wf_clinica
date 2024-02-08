@@ -14,42 +14,44 @@ const Values = () => {
         />
       </div>
       <SectionIntro
-        eyebrow="Our values"
-        title="Balancing reliability and innovation"
+        eyebrow="Nossos Valores"
+        title="Equilibrando confiabilidade e inovação"
       >
         <p>
-          We strive to stay at the forefront of emerging trends and
-          technologies, while completely ignoring them and forking that old
-          Rails project we feel comfortable using. We stand by our core values
-          to justify that decision.
+          Nos empenhamos em estar na vanguarda das tendências e tecnologias
+          emergentes, aplicando-as para melhorar a saúde bucal e a experiência
+          de nossos pacientes. Mantemos nossos valores fundamentais para
+          orientar essas decisões.
         </p>
       </SectionIntro>
       <Container className="mt-24">
         <GridList>
-          <GridListItem title="Meticulous">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+          <GridListItem title="Atenção aos Detalhes">
+            Cada aspecto do atendimento ao paciente é meticulosamente planejado,
+            desde a consulta inicial até o tratamento final, assegurando a mais
+            alta qualidade.
           </GridListItem>
-          <GridListItem title="Efficient">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+          <GridListItem title="Eficiência">
+            Orgulhamo-nos de nossa capacidade de oferecer tratamentos eficazes e
+            oportunos, maximizando os resultados sem comprometer a qualidade.
           </GridListItem>
-          <GridListItem title="Adaptable">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+          <GridListItem title="Adaptabilidade">
+            Reconhecemos que cada paciente tem necessidades únicas,
+            personalizando nossos tratamentos para atender a essas
+            especificidades com precisão.
           </GridListItem>
-          <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+          <GridListItem title="Honestidade">
+            Somos transparentes em todos os nossos processos, comunicando
+            abertamente os planos de tratamento, opções e expectativas.
           </GridListItem>
-          <GridListItem title="Loyal">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+          <GridListItem title="Lealdade">
+            Cultivamos relacionamentos de longo prazo com nossos pacientes,
+            excedendo suas expectativas para garantir sua satisfação contínua.
           </GridListItem>
-          <GridListItem title="Innovative">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+          <GridListItem title="Inovação">
+            O cenário tecnológico na odontologia está sempre evoluindo, e
+            estamos comprometidos em incorporar as últimas inovações para
+            melhorar os cuidados com os pacientes.
           </GridListItem>
         </GridList>
       </Container>

@@ -5,50 +5,35 @@ import FooterNavigation from "./FooterNavigation";
 import Logo from "./Logo";
 import Link from "next/link";
 
-const ArrowIcon = (props) => {
-  return (
-    <svg viewBox="0 0 16 6" aria-hidden="true" {...props}>
-      <path
-        fill="currentColor"
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M16 3 10 .5v2H0v1h10v2L16 3Z"
-      />
-    </svg>
-  );
-};
-
-const NewsletterForm = () => {
-  return (
-    <form className="max-w-sm">
-      <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
-        Esperamos te ajudar.
-      </h2>
-      <p className="mt-4 text-sm text-neutral-700">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fugiat deleniti odit consectetur porro minus. Quasi, cupiditate aliquid. Doloremque ipsam sequi quisquam fugit numquam beatae ducimus eligendi, cumque impedit eveniet.
-      </p>
-    </form>
-  );
-};
-
 const Footer = () => {
   return (
-    <Container as="footer" className="mt-24 w-full sm:mt-32 lg:mt-40">
+    <Container as="footer" className="mt-24 w-full py-12 sm:mt-32 lg:mt-40">
       <FadeIn>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
-          <FooterNavigation />
-          <div className="flex lg:justify-end">
-            <NewsletterForm />
+        <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="flex flex-col items-center lg:items-start">
+            <Logo className="h-8 mb-4" />
+            <p className="text-sm text-neutral-700 text-center lg:text-left">
+              Comprometidos com a excelência em saúde bucal, proporcionamos
+              tratamentos inovadores para garantir o seu sorriso mais brilhante.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <FooterNavigation />
+          </div>
+          <div className="flex flex-col items-center lg:items-end">
+            <h3 className="font-semibold text-neutral-900 mb-4">Contato</h3>
+            <p className="text-sm text-neutral-700 mb-2">wf@clinicawf.com</p>
+            <p className="text-sm text-neutral-700">+55 47 1234-5678</p>
           </div>
         </div>
-        <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
-          <Link href={"/"} aria-label="Home">
-            <Logo className="h-8" fillOnHover>
-              Clínica WF
-            </Logo>
+        <div className="mt-16 border-t border-neutral-950/10 pt-8 lg:pt-12 text-center">
+          <Link href="/" aria-label="Voltar para a página inicial">
+            {/* Corrigido para remover o <a> desnecessário */}
+            Home
           </Link>
-          <p className="text-sm text-neutral-700">
-            © vonDEV. {new Date().getFullYear()}
+          <p className="text-sm text-neutral-700 mt-4">
+            © Clínica WF. {new Date().getFullYear()}. Todos os direitos
+            reservados.
           </p>
         </div>
       </FadeIn>

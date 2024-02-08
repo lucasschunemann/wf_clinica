@@ -1,22 +1,23 @@
 import Link from "next/link";
 import clsx from "clsx";
-import {
-
-  BsLinkedin,
-  BsInstagram,
-} from "react-icons/bs";
+import { BsLinkedin, BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 export const SocialMediaProfiles = [
+  {
+    title: "Whatsapp",
+    href: "#",
+    icon: BsWhatsapp,
+  },
   {
     title: "Instagram",
     href: "https://www.instagram.com/meta_cumprida/",
     icon: BsInstagram,
   },
   {
-    title: "linkedin",
+    title: "Linkedin",
     href: "#",
     icon: BsLinkedin,
-  }
+  },
 ];
 
 const SocialMedia = ({ className, invert = false }) => {

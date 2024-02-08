@@ -9,23 +9,22 @@ import React from "react";
 const ProcessPage = () => {
   return (
     <>
-      <PageIntro eyebrow="Our process" title="How we work">
+      <PageIntro eyebrow="Nosso Processo Odontológico" title="Como Trabalhamos para o Seu Sorriso">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          Na nossa clínica odontológica, temos um processo meticuloso para garantir o melhor cuidado para o seu sorriso. Desde a descoberta das suas necessidades até a entrega dos tratamentos, estamos comprometidos em fornecer uma experiência positiva e resultados excepcionais.
         </p>
       </PageIntro>
-      <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
-        {/* Discover */}
+      <div className="mt-24 space-y-24 sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
+        {/* Descoberta */}
         <Discover />
-        {/* Build */}
+        {/* Construção */}
         <Build />
-        {/* Deliver */}
+        {/* Entrega */}
         <Deliver />
       </div>
-      {/* Values */}
+      {/* Nossos Valores */}
       <Values />
+      {/* Entre em Contato */}
       <ContactSection />
     </>
   );

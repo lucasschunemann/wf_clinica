@@ -1,55 +1,54 @@
 import React from "react";
 import Section from "./Section";
-import imageMeeting from "@/images/meeting.jpg";
+import imageMeeting from "@/images/tela3.jpeg";
 import List, { ListItem } from "./List";
 
 const Deliver = () => {
   return (
-    <Section title="Deliver" image={{ src: imageMeeting, shape: 1 }}>
+    <Section
+      title="Entregando seu Sorriso"
+      image={{ src: imageMeeting, shape: 1 }}
+    >
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{" "}
+          Concluindo a fase de construção do plano de tratamento, nos dedicamos
+          a finalizar cada procedimento com a mais alta qualidade e precisão,
+          garantindo que as{" "}
           <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
+            expectativas
+          </strong>{" "}
+          dos pacientes sejam não apenas atendidas, mas superadas.
         </p>
         <p>
-          Despite largely using pre-built components, most of the{" "}
-          <strong className="font-semibold text-neutral-950">progress</strong>{" "}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
+          A maioria do{" "}
+          <strong className="font-semibold text-neutral-950">progresso</strong>{" "}
+          significativo é alcançada com uma atenção meticulosa aos detalhes,
+          assegurando que cada aspecto do tratamento seja realizado com o máximo
+          cuidado.
         </p>
         <p>
-          We ensure that the main pages of the site are{" "}
+          Garantimos que todos os aspectos do tratamento estejam{" "}
           <strong className="font-semibold text-neutral-950">
-            fully functional
+            plenamente funcionais
           </strong>{" "}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{" "}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{" "}
-          retainer.
+          e satisfatórios no momento da entrega. Além disso, oferecemos um
+          acompanhamento detalhado e orientações de cuidados pós-tratamento como
+          parte do nosso compromisso contínuo com a saúde bucal do paciente.
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Incluído nesta fase <br />
+        <br />
       </h3>
       <List>
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        <ListItem title="Orientações de Cuidados Pós-Tratamento">
+          Fornecemos instruções detalhadas e personalizadas para cuidados
+          pós-tratamento, assegurando uma recuperação rápida e eficaz.
         </ListItem>
-        <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
-        </ListItem>
-        <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+        <ListItem title="Suporte Contínuo">
+          Nossa equipe está sempre disponível para oferecer suporte contínuo,
+          respondendo a quaisquer perguntas e assegurando a satisfação a longo
+          prazo com os resultados do tratamento.
         </ListItem>
       </List>
     </Section>
